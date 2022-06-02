@@ -5,4 +5,4 @@ services:
   ports:
   - "8081-8082:8080"
   volumes:
-  - "/gameoflife-web/target:/usr/local/tomcat/webapps"
+  - "/mnt/project/gameoflife-web/target:/usr/local/tomcat/webapps"
