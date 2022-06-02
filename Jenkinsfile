@@ -25,7 +25,7 @@ pipeline {
 	       
 	        steps {
 	           
-	            sh "docker-compose up -d --scale webserver=3"
+	            sh "docker-compose up -d --scale webserver=2"
 				
 				
     }
