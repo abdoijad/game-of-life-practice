@@ -1,8 +1,0 @@
-version: '3'
-services:
- webserver:
-  image: 'tomcat:9'
-  ports:
-  - "8081-8082:8080"
-  volumes:
-  - "/mnt/project/gameoflife-web/target:/usr/local/tomcat/webapps"
